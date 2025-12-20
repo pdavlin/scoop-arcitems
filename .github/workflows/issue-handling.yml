@@ -1,0 +1,15 @@
+name: Issue Handling
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  issue_comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ScoopInstaller/GithubActions@main
+        if: github.event.action == 'opened' || github.event.action == 'edited'
+        with:
+          issue_comment: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
