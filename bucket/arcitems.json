@@ -7,7 +7,10 @@
     "64bit": {
       "url": "https://github.com/pdavlin/arcitems/releases/download/v2025.12.22.1542/arcitems-windows-amd64.zip",
       "hash": "sha256:2c860e5c2d381682f81df9c6ed4ac3a5c561fce0d12389555e51b8f14510f148",
-      "bin": "arcitems-windows-amd64.exe",
+      "bin": [
+        "arcitems-windows-amd64.exe",
+        "arcitems"
+      ],
       "shortcuts": [
         [
           "arcitems-windows-amd64.exe",
