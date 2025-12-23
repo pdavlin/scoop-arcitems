@@ -1,12 +1,12 @@
 {
-  "version": "2025.12.23.2010",
+  "version": "2025.12.23.2017",
   "description": "CLI tool for ARC Raiders item and quest lookup",
   "homepage": "https://github.com/pdavlin/arcitems",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/pdavlin/arcitems/releases/download/v2025.12.23.2010/arcitems-windows-amd64.zip",
-      "hash": "sha256:1d989b159914c5d364adfb99bd363ec8996362ed6cb6ae89c9777b372f910e93",
+      "url": "https://github.com/pdavlin/arcitems/releases/download/v2025.12.23.2017/arcitems-windows-amd64.zip",
+      "hash": "sha256:05da9ddeac99fbeaed26858def6d14bdc49cc9995c21f6e399c7e0b7e82b8606",
       "bin": "arcitems.exe",
       "shortcuts": [
         [
